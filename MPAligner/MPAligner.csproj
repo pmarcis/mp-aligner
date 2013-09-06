@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4C74E0A7-E219-4B17-8966-3F0E7AA54E0E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MPAligner</RootNamespace>
+    <AssemblyName>MPAligner</AssemblyName>
+    <StartupObject>MPAligner.MainClass</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>False</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>True</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+    <Commandlineparameters>-m singletaggedpair -c C:\RuntimeTempDir\TaaS\data\test.xml -if term_list -si C:\RuntimeTempDir\TaaS\terms.lv -ti C:\RuntimeTempDir\TaaS\terms.en -sl lv -tl en -o C:\RuntimeTempDir\TaaS\res.xml -d_id 32 -c_id "http://taas-project.eu/MP_Aligner/IT_News/V20.08.2013" -of xml</Commandlineparameters>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>True</Externalconsole>
+    <PlatformTarget>x86</PlatformTarget>
+    <Commandlineparameters>-m taggedfilepairs -c "C:\RuntimeTempDir\TaaS\data\test.xml" -if "tagged_plaintext" -i "C:\RuntimeTempDir\TaaS\USFD_RSS_NEWS_WEEK4\USFD_LV-EN_IT_DICTMETRIC-RAW.lst" -sl lv -tl en -o "C:\RuntimeTempDir\TaaS\USFD_RSS_NEWS_WEEK4\USFD_LV-EN_IT_Aligned.lst" -d_id 3216 -c_id "http://taas-project.eu/MP_Aligner/USFD_News/V01.08.2013"</Commandlineparameters>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="SmartThreadPool">
+      <HintPath>SmartThreadPool.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="MPAlignerConfiguration.cs" />
+    <Compile Include="ProbabilisticDictionaryParser.cs" />
+    <Compile Include="ProcessedTermEntry.cs" />
+    <Compile Include="MPFrameworkFunctions.cs" />
+    <Compile Include="MPAlignerConfigurationTranslEntry.cs" />
+    <Compile Include="MPAlignerConfigurationDictEntry.cs" />
+    <Compile Include="LightweightStemmer.cs" />
+    <Compile Include="LevenshteinDistance.cs" />
+    <Compile Include="SimpleCharacterTransliteration.cs" />
+    <Compile Include="ValidAlphabets.cs" />
+    <Compile Include="StringProbabEntry.cs" />
+    <Compile Include="LogLevelType.cs" />
+    <Compile Include="Alignment.cs" />
+    <Compile Include="AlignmentInfoElement.cs" />
+    <Compile Include="LongestCommonSubstring.cs" />
+    <Compile Include="JaroWinklerDistance.cs" />
+    <Compile Include="PreprocessedTermData.cs" />
+    <Compile Include="WordAlignmentElement.cs" />
+    <Compile Include="MPAlignerConfigurationLangPairEntry.cs" />
+    <Compile Include="StringComparisonElement.cs" />
+    <Compile Include="ListFileParser.cs" />
+    <Compile Include="BezierFunction.cs" />
+    <Compile Include="MPAlignerConfigurationExceptionEntry.cs" />
+    <Compile Include="ExceptionDictionaryParser.cs" />
+    <Compile Include="MPAlignerConfigurationStopWordListEntry.cs" />
+    <Compile Include="StopwordListParser.cs" />
+    <Compile Include="SimpleTermEntry.cs" />
+    <Compile Include="TranslitExecElement.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="TermTaggedFileParser.cs" />
+    <Compile Include="ConsolidationElement.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="License.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<MPAlignerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" trimmedAlignments="false" keepTrackOfFiles="true" logLevel="ERROR" forceEnTranslitInterlingua="false" forceEnDictInterlingua="false" outputFormat="TSV">
+  <mosesPath>/home/marcis/LU/moses/mosesdecoder/bin/moses</mosesPath>
+  <translConfEntries>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="lv" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/LV-EN/lv-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="lt" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/LT-EN/lt-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="de" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/DE-EN/de-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="el" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/EL-EN/el-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="et" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/ET-EN/et-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="hr" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/HR-EN/hr-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="lt" tLang="lv">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/LT-LV/lt-lv-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="lv" tLang="lt">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/LV-lt/lv-lt-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="ro" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/RO-EN/ro-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="sl" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/SL-EN/sl-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="lv">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/EN-LV/en-lv-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="lt">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/EN-LT/en-lt-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="de">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/EN-DE/en-de-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="el">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/EN-EL/en-el-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="et">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/EN-ET/en-et-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="hr">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/EN-HR/en-hr-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="ro">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/EN-RO/en-ro-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.05" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="sl">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/EN-SL/en-sl-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+  </translConfEntries>
+  <dictConfEntries>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="lv" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>/home/marcis/TILDE/RESOURCES/DICT/lv_en_filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="lt" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>/home/marcis/TILDE/RESOURCES/DICT/lt_en_filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="de" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>/home/marcis/TILDE/RESOURCES/DICT/de_en_filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="el" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>/home/marcis/TILDE/RESOURCES/DICT/el_en_filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="et" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>/home/marcis/TILDE/RESOURCES/DICT/et_en_filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="hr" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>/home/marcis/TILDE/RESOURCES/DICT/hr_en_filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="lt" tLang="lv" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>/home/marcis/TILDE/RESOURCES/DICT/lt_lv_filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="lv" tLang="lt" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>/home/marcis/TILDE/RESOURCES/DICT/lv_lt_filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="ro" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>/home/marcis/TILDE/RESOURCES/DICT/ro_en_filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="sl" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>/home/marcis/TILDE/RESOURCES/DICT/sl_en_filtered</path>
+    </MPAlignerConfigurationDictEntry>
+  </dictConfEntries>
+  <langPairConfEntries>
+    <MPAlignerConfigurationLangPairEntry sLang="lv" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.1" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry sLang="lt" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" alignThr="0.1" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+  </langPairConfEntries>
+  <excDictConfEntries>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="lv" tLang="en" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/EXC_DICT/lv_en_exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="lt" tLang="en" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/EXC_DICT/lt_en_exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="de" tLang="en" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/EXC_DICT/de_en_exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="el" tLang="en" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/EXC_DICT/el_en_exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="et" tLang="en" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/EXC_DICT/et_en_exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="hr" tLang="en" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/EXC_DICT/hr_en_exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="lt" tLang="lv" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/EXC_DICT/lt_lv_exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="lv" tLang="lt" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/EXC_DICT/lv_lt_exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="ro" tLang="en" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/EXC_DICT/ro_en_exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="sl" tLang="en" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/EXC_DICT/sl_en_exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+  </excDictConfEntries>
+  <stopWordListConfEntries>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="lv" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/STOP_WORD/lv_stop</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="lt" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/STOP_WORD/lt_stop</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="en" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/STOP_WORD/en_stop</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="de" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/STOP_WORD/de_stop</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="el" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/STOP_WORD/el_stop</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="et" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/STOP_WORD/et_stop</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="hr" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/STOP_WORD/hr_stop</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="ro" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/STOP_WORD/ro_stop</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="sl" enc="65001">
+      <path>/home/marcis/TILDE/RESOURCES/STOP_WORD/sl_stop</path>
+    </MPAlignerConfigurationStopWordListEntry>
+  </stopWordListConfEntries>
+</MPAlignerConfiguration>

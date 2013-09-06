@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPAligner", "MPAligner\MPAligner.csproj", "{4C74E0A7-E219-4B17-8966-3F0E7AA54E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplaceStringInFile", "ReplaceStringInFile\ReplaceStringInFile.csproj", "{3F5BBC07-DBA1-4EEC-87F7-378682D8CF79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitPreProcessedData", "SplitPreProcessedData\SplitPreProcessedData.csproj", "{F9846D5B-051C-48E1-886A-4A2C2C278625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolidateEurovocResults", "ConsolidateEurovocResults\ConsolidateEurovocResults.csproj", "{371EE474-0370-41B9-9888-47949D5F1A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyThreshold", "ApplyThreshold\ApplyThreshold.csproj", "{EEED0456-D39C-4204-8B12-AC616D66EE91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalyseDictAndPhraseTableCoverage", "AnalyseDictAndPhraseTableCoverage\AnalyseDictAndPhraseTableCoverage.csproj", "{1AD1DF35-CAB4-4D12-87A8-8E2B90AD4A7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateResources", "CreateResources\CreateResources.csproj", "{CB3BF8DC-1604-4E06-93E9-6A3B24432AE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AD1DF35-CAB4-4D12-87A8-8E2B90AD4A7D}.Debug|x86.ActiveCfg = Debug|x86
+		{1AD1DF35-CAB4-4D12-87A8-8E2B90AD4A7D}.Debug|x86.Build.0 = Debug|x86
+		{1AD1DF35-CAB4-4D12-87A8-8E2B90AD4A7D}.Release|x86.ActiveCfg = Release|x86
+		{1AD1DF35-CAB4-4D12-87A8-8E2B90AD4A7D}.Release|x86.Build.0 = Release|x86
+		{371EE474-0370-41B9-9888-47949D5F1A8C}.Debug|x86.ActiveCfg = Debug|x86
+		{371EE474-0370-41B9-9888-47949D5F1A8C}.Debug|x86.Build.0 = Debug|x86
+		{371EE474-0370-41B9-9888-47949D5F1A8C}.Release|x86.ActiveCfg = Release|x86
+		{371EE474-0370-41B9-9888-47949D5F1A8C}.Release|x86.Build.0 = Release|x86
+		{3F5BBC07-DBA1-4EEC-87F7-378682D8CF79}.Debug|x86.ActiveCfg = Debug|x86
+		{3F5BBC07-DBA1-4EEC-87F7-378682D8CF79}.Debug|x86.Build.0 = Debug|x86
+		{3F5BBC07-DBA1-4EEC-87F7-378682D8CF79}.Release|x86.ActiveCfg = Release|x86
+		{3F5BBC07-DBA1-4EEC-87F7-378682D8CF79}.Release|x86.Build.0 = Release|x86
+		{4C74E0A7-E219-4B17-8966-3F0E7AA54E0E}.Debug|x86.ActiveCfg = Debug|x86
+		{4C74E0A7-E219-4B17-8966-3F0E7AA54E0E}.Debug|x86.Build.0 = Debug|x86
+		{4C74E0A7-E219-4B17-8966-3F0E7AA54E0E}.Release|x86.ActiveCfg = Release|x86
+		{4C74E0A7-E219-4B17-8966-3F0E7AA54E0E}.Release|x86.Build.0 = Release|x86
+		{CB3BF8DC-1604-4E06-93E9-6A3B24432AE9}.Debug|x86.ActiveCfg = Debug|x86
+		{CB3BF8DC-1604-4E06-93E9-6A3B24432AE9}.Debug|x86.Build.0 = Debug|x86
+		{CB3BF8DC-1604-4E06-93E9-6A3B24432AE9}.Release|x86.ActiveCfg = Release|x86
+		{CB3BF8DC-1604-4E06-93E9-6A3B24432AE9}.Release|x86.Build.0 = Release|x86
+		{EEED0456-D39C-4204-8B12-AC616D66EE91}.Debug|x86.ActiveCfg = Debug|x86
+		{EEED0456-D39C-4204-8B12-AC616D66EE91}.Debug|x86.Build.0 = Debug|x86
+		{EEED0456-D39C-4204-8B12-AC616D66EE91}.Release|x86.ActiveCfg = Release|x86
+		{EEED0456-D39C-4204-8B12-AC616D66EE91}.Release|x86.Build.0 = Release|x86
+		{F9846D5B-051C-48E1-886A-4A2C2C278625}.Debug|x86.ActiveCfg = Debug|x86
+		{F9846D5B-051C-48E1-886A-4A2C2C278625}.Debug|x86.Build.0 = Debug|x86
+		{F9846D5B-051C-48E1-886A-4A2C2C278625}.Release|x86.ActiveCfg = Release|x86
+		{F9846D5B-051C-48E1-886A-4A2C2C278625}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = MPAligner\MPAligner.csproj
+	EndGlobalSection
+EndGlobal

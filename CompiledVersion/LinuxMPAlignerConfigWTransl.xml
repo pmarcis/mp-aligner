@@ -1,0 +1,638 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<MPAlignerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" threads="6" threadedExec="true" trimmedAlignments="false" keepTrackOfFiles="true" printTopTrgForSrc="false" logLevel="LIMITED_OUTPUT" forceEnTranslitInterlingua="false" forceEnDictInterlingua="false" outputFormat="ref_tabsep">
+  <mosesPath>/home/marcis/LU/moses/mosesdecoder/bin/moses</mosesPath>
+  <translConfEntries>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="bg" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/BG-EN/bg-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="bg">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-BG/en-bg-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="cs" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/CS-EN/cs-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="cs">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-CS/en-cs-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="da" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/DA-EN/da-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="da">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-DA/en-da-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="de" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/DE-EN/de-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="de">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-DE/en-de-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="el" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EL-EN/el-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="el">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-EL/en-el-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="es" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/ES-EN/es-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="es">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-ES/en-es-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="et" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/ET-EN/et-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="et">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-ET/en-et-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="fi" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/FI-EN/fi-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="fi">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-FI/en-fi-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="fr" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/FR-EN/fr-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="fr">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-FR/en-fr-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="hr" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/HR-EN/hr-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="hr">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-HR/en-hr-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="hu" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/HU-EN/hu-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="hu">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-HU/en-hu-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="it" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/IT-EN/it-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="it">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-IT/en-it-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="lt" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/LT-EN/lt-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="lt">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-LT/en-lt-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="lv" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/LV-EN/lv-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="lv">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/EN-LV/en-lv-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="mt" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/MT-EN/mt-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="mt">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-MT/en-mt-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="nl" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/NL-EN/nl-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="nl">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-NL/en-nl-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="pl" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/PL-EN/pl-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="pl">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-PL/en-pl-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="pt" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/PT-EN/pt-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="pt">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-PT/en-pt-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="ro" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/RO-EN/ro-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="ro">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-RO/en-ro-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="sk" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/SK-EN/sk-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="sk">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-SK/en-sk-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="sl" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/SL-EN/sl-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="sl">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-SL/en-sl-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="sv" tLang="en">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/SV-EN/sv-en-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="en" tLang="sv">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR_V2/EN-SV/en-sv-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="lt" tLang="lv">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/LT-LV/lt-lv-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+    <MPAlignerConfigurationTranslEntry use="true" thr="0.2" maxLenDiff="0.6" nBest="5" stem="false" sLang="lv" tLang="lt">
+      <translitBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <mosesIniPath>/home/marcis/TILDE/RESOURCES/TRANSLIT_WORKING_DIR/LV-LT/lv-lt-binarised-model.moses.ini</mosesIniPath>
+    </MPAlignerConfigurationTranslEntry>
+  </translConfEntries>
+  <dictConfEntries>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="bg" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/bg-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="bg" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-bg-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="cs" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/cs-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="cs" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-cs-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="da" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/da-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="da" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-da-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="de" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/de-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="de" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-de-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="el" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/el-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="el" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-el-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="es" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/es-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="es" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-es-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="et" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/et-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="et" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-et-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="fi" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/fi-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="fi" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-fi-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="fr" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/fr-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="fr" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-fr-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="hr" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/hr-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="hu" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/hu-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="hu" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-hu-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="it" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/it-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="it" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-it-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="lt" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/lt-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="lt" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-lt-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="lt" tLang="lv" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/lt-lv-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="lv" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/lv-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="lv" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-lv-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="lv" tLang="lt" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/lv-lt-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="mt" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/mt-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="mt" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-mt-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="nl" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/nl-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="nl" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-nl-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="pl" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/pl-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="pl" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-pl-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="pt" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/pt-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="pt" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-pt-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="ro" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/ro-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="ro" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-ro-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="sk" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/sk-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="sk" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-sk-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="sl" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/sl-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="sl" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-sl-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="sv" tLang="en" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/sv-en-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+    <MPAlignerConfigurationDictEntry use="true" stem="false" max="10" thr="0.1" sep=" [TAB]" filter="true" sLang="en" tLang="sv" decSep="." enc="65001">
+      <dictBf mx1="0.2" my1="0.8" mx2="0" my2="1" />
+      <path>./dict/en-sv-filtered</path>
+    </MPAlignerConfigurationDictEntry>
+  </dictConfEntries>
+  <langPairConfEntries>
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="lv" tLang="lt" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="lt" tLang="lv" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="bg" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="bg" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="cs" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="cs" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="da" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="da" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="de" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="de" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="el" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="el" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="es" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="es" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="et" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="et" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="fi" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="fi" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="fr" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="fr" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="hr" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="hr" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="hu" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="hu" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="it" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="it" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="lt" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="lt" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="lv" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="lv" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="mt" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="mt" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="nl" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="nl" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="pl" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="pl" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="pt" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="pt" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="ro" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="ro" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="sk" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="sk" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="sl" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="sl" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="sv" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="sv" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="sr" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="sr" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="ga" tLang="en" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+    <MPAlignerConfigurationLangPairEntry enforce1stChar="true" enforce2ndChar="true" printThr="0.6" sLang="en" tLang="ga" dThr="0.75" dToWThr="0.75" dToSThr="0.75" dToTThr="0.75" tThr="0.75" tToWThr="0.75" tToSThr="0.75" sThr="0.75" sToWThr="0.75" lDThr="0.75" lDToWThr="0.75" lDToSThr="0.75" lDToTThr="0.75" lTThr="0.75" lTToWThr="0.75" lTToSThr="0.75" lSThr="0.75" lSToWThr="0.75" alignThr="0.6" maxCompCharOverlap="1" minCompPartLen="0" minShortFragmOverlap="0.7" shortFragmLen="4" maxShortFragmTargLen="6" />
+  </langPairConfEntries>
+  <excDictConfEntries>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="bg" tLang="en" enc="65001">
+      <path>./exc_dict/bg-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="cs" tLang="en" enc="65001">
+      <path>./exc_dict/cs-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="da" tLang="en" enc="65001">
+      <path>./exc_dict/da-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="de" tLang="en" enc="65001">
+      <path>./exc_dict/de-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="el" tLang="en" enc="65001">
+      <path>./exc_dict/el-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="es" tLang="en" enc="65001">
+      <path>./exc_dict/es-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="et" tLang="en" enc="65001">
+      <path>./exc_dict/et-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="fi" tLang="en" enc="65001">
+      <path>./exc_dict/fi-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="fr" tLang="en" enc="65001">
+      <path>./exc_dict/fr-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="hu" tLang="en" enc="65001">
+      <path>./exc_dict/hu-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="hr" tLang="en" enc="65001">
+      <path>./exc_dict/hr-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="it" tLang="en" enc="65001">
+      <path>./exc_dict/it-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="lt" tLang="en" enc="65001">
+      <path>./exc_dict/lt-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="lv" tLang="en" enc="65001">
+      <path>./exc_dict/lv-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="mt" tLang="en" enc="65001">
+      <path>./exc_dict/mt-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="nl" tLang="en" enc="65001">
+      <path>./exc_dict/nl-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="pl" tLang="en" enc="65001">
+      <path>./exc_dict/pl-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="pt" tLang="en" enc="65001">
+      <path>./exc_dict/pt-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="ro" tLang="en" enc="65001">
+      <path>./exc_dict/ro-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="sk" tLang="en" enc="65001">
+      <path>./exc_dict/sk-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="sl" tLang="en" enc="65001">
+      <path>./exc_dict/sl-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="sv" tLang="en" enc="65001">
+      <path>./exc_dict/sv-en-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="bg" enc="65001">
+      <path>./exc_dict/en-bg-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="cs" enc="65001">
+      <path>./exc_dict/en-cs-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="da" enc="65001">
+      <path>./exc_dict/en-da-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="de" enc="65001">
+      <path>./exc_dict/en-de-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="el" enc="65001">
+      <path>./exc_dict/en-el-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="es" enc="65001">
+      <path>./exc_dict/en-es-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="et" enc="65001">
+      <path>./exc_dict/en-et-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="fi" enc="65001">
+      <path>./exc_dict/en-fi-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="fr" enc="65001">
+      <path>./exc_dict/en-fr-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="hu" enc="65001">
+      <path>./exc_dict/en-hu-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="it" enc="65001">
+      <path>./exc_dict/en-it-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="lt" enc="65001">
+      <path>./exc_dict/en-lt-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="lv" enc="65001">
+      <path>./exc_dict/en-lv-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="mt" enc="65001">
+      <path>./exc_dict/en-mt-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="nl" enc="65001">
+      <path>./exc_dict/en-nl-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="pl" enc="65001">
+      <path>./exc_dict/en-pl-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="pt" enc="65001">
+      <path>./exc_dict/en-pt-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="ro" enc="65001">
+      <path>./exc_dict/en-ro-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="sk" enc="65001">
+      <path>./exc_dict/en-sk-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="sl" enc="65001">
+      <path>./exc_dict/en-sl-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="en" tLang="sv" enc="65001">
+      <path>./exc_dict/en-sv-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="lv" tLang="lt" enc="65001">
+      <path>./exc_dict/lv-lt-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+    <MPAlignerConfigurationExceptionEntry use="true" stem="false" sep=" [TAB]" sLang="lt" tLang="lv" enc="65001">
+      <path>./exc_dict/lt-lv-exc</path>
+    </MPAlignerConfigurationExceptionEntry>
+  </excDictConfEntries>
+  <stopWordListConfEntries>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="bg" enc="65001">
+      <path>./stop/STOP_BG.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="cs" enc="65001">
+      <path>./stop/STOP_CS.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="da" enc="65001">
+      <path>./stop/STOP_DA.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="de" enc="65001">
+      <path>./stop/STOP_DE.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="el" enc="65001">
+      <path>./stop/STOP_EL.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="en" enc="65001">
+      <path>./stop/STOP_EN.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="es" enc="65001">
+      <path>./stop/STOP_ES.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="et" enc="65001">
+      <path>./stop/STOP_ET.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="fi" enc="65001">
+      <path>./stop/STOP_FI.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="fr" enc="65001">
+      <path>./stop/STOP_FR.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="ga" enc="65001">
+      <path>./stop/STOP_GA.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="hr" enc="65001">
+      <path>./stop/STOP_HR.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="hu" enc="65001">
+      <path>./stop/STOP_HU.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="it" enc="65001">
+      <path>./stop/STOP_IT.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="lt" enc="65001">
+      <path>./stop/STOP_LT.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="lv" enc="65001">
+      <path>./stop/STOP_LV.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="mt" enc="65001">
+      <path>./stop/STOP_MT.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="nl" enc="65001">
+      <path>./stop/STOP_NL.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="pl" enc="65001">
+      <path>./stop/STOP_PL.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="pt" enc="65001">
+      <path>./stop/STOP_PT.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="ro" enc="65001">
+      <path>./stop/STOP_RO.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="ru" enc="65001">
+      <path>./stop/STOP_RU.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="sk" enc="65001">
+      <path>./stop/STOP_SK.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="sl" enc="65001">
+      <path>./stop/STOP_SL.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+    <MPAlignerConfigurationStopWordListEntry use="true" stem="false" lang="sv" enc="65001">
+      <path>./stop/STOP_SV.txt</path>
+    </MPAlignerConfigurationStopWordListEntry>
+  </stopWordListConfEntries>
+</MPAlignerConfiguration>

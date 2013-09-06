@@ -1,0 +1,95 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MPAligner\Main.cs">
+    <Files>
+      <File FileName="MPAligner\LongestCommonSubstring.cs" Line="1" Column="1" />
+      <File FileName="MPAligner\Main.cs" Line="18" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="AnalyseDictAndPhraseTableCoverage" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+          <Node name="ApplyThreshold" expanded="True" />
+          <Node name="ConsolidateEurovocResults" expanded="True" />
+          <Node name="MPAligner" expanded="True">
+            <Node name="MPFrameworkFunctions.cs" selected="True" />
+            <Node name="ValidAlphabets.cs" expanded="True" />
+          </Node>
+          <Node name="ReplaceStringInFile" expanded="True" />
+          <Node name="SplitPreProcessedData" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True">
+          <Node name="AnalyseDictAndPhraseTableCoverage" expanded="True" />
+          <Node name="MPAligner" expanded="True">
+            <Node name="MPAligner" expanded="True">
+              <Node name="MPAligner.Alignment" expanded="True" />
+              <Node name="MPAligner.MainClass" expanded="True">
+                <Node name="ReadStopwordList" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="G:\DropBox\MonoProjects\MPAligner\MPAligner\Main.cs" line="2818" column="1" />
+      <Breakpoint file="G:\DropBox\MonoProjects\MPAligner\MPAligner\Main.cs" line="2918" column="1" />
+      <Breakpoint file="G:\DropBox\MonoProjects\MPAligner\MPAligner\Main.cs" line="2756" column="1" />
+      <Breakpoint file="G:\DropBox\MonoProjects\MPAligner\MPAligner\Alignment.cs" line="3062" column="1" />
+      <Breakpoint file="G:\DropBox\MonoProjects\MPAligner\AnalyseDictAndPhraseTableCoverage\Program.cs" line="61" column="1" />
+      <Breakpoint file="c:\Users\Marcis\Dropbox\MonoProjects\MPAligner\MPAligner\TermTaggedFileParser.cs" line="213" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="AnalyseDictAndPhraseTableCoverage\Program.cs" line="122" offsetX="654" offsetY="1936" expression="data" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.MPAligner>
+    <MonoDevelop.Ide.CustomExecutionModes>
+      <Data Name="config" Id="be2366c9-b115-48f4-b32a-f69d97553daf" ModeId="Default">
+        <CommandData>
+          <Item Key="MonoDevelop.Ide.Execution.CustomArgsCustomizer">
+            <Value Arguments="-m config -o &quot;/home/marcis/Dropbox/MonoProjects/MPAligner/MPAligner/MPAlignerConfig.xml&quot;" ctype="CustomArgsExecutionModeData">
+              <EnvironmentVariables />
+            </Value>
+          </Item>
+          <Item Key="MonoDevelop.Ide.Execution.MonoExecutionCustomizer">
+            <Value ctype="MonoExecutionParameters" />
+          </Item>
+        </CommandData>
+      </Data>
+      <Data Name="Align terms in doc pair" Id="11726b9c-2889-4307-b638-52785bb128c9" ModeId="Default">
+        <CommandData>
+          <Item Key="MonoDevelop.Ide.Execution.CustomArgsCustomizer">
+            <Value Arguments="-m singletaggedpair -c &quot;/home/marcis/LU/MPAlignerConfig.xml&quot; -si &quot;/home/marcis/Dropbox/MonoProjects/MPAligner/MPAligner/bin/Debug/lv_t.txt&quot; -ti &quot;/home/marcis/Dropbox/MonoProjects/MPAligner/MPAligner/bin/Debug/en_t.txt&quot; -sl lv -tl en -o &quot;/home/marcis/Dropbox/MonoProjects/MPAligner/MPAligner/bin/Debug/lv_en_aligned.txt&quot; -ttf &quot;/home/marcis/Dropbox/MonoProjects/MPAligner/MPAligner/bin/Debug/tempTranslitFile.txt&quot;" ctype="CustomArgsExecutionModeData">
+              <EnvironmentVariables />
+            </Value>
+          </Item>
+          <Item Key="MonoDevelop.Ide.Execution.MonoExecutionCustomizer">
+            <Value ctype="MonoExecutionParameters" />
+          </Item>
+        </CommandData>
+      </Data>
+      <Data Name="SingleTermTaggedDocPairs" Id="c55cdb0f-77c4-4add-a46c-225fea8bd5b6" ModeId="Default">
+        <CommandData>
+          <Item Key="MonoDevelop.Ide.Execution.CustomArgsCustomizer">
+            <Value Arguments="-m singletaggedpair -c &quot;/home/marcis/Dropbox/MonoProjects/MPAligner/MPAligner/MPAlignerConfig.xml&quot; -si &quot;/home/marcis/Dropbox/ACL2013/WIKI/TERM/lv.txt&quot; -ti &quot;/home/marcis/Dropbox/ACL2013/WIKI/TERM/en.txt&quot; -sl lv -tl en -o &quot;/home/marcis/Dropbox/ACL2013/WIKI/lv_en_aligned.txt&quot; -ttf &quot;/home/marcis/Dropbox/ACL2013/WIKI/tempTranslitFile.txt&quot; -pto &quot;/home/marcis/Dropbox/ACL2013/WIKI/preprocessedTerms.xml&quot;" ctype="CustomArgsExecutionModeData">
+              <EnvironmentVariables />
+            </Value>
+          </Item>
+          <Item Key="MonoDevelop.Ide.Execution.MonoExecutionCustomizer">
+            <Value ctype="MonoExecutionParameters" />
+          </Item>
+        </CommandData>
+      </Data>
+    </MonoDevelop.Ide.CustomExecutionModes>
+  </MonoDevelop.Ide.ItemProperties.MPAligner>
+</Properties>
