@@ -26,7 +26,7 @@ The repository is structured as follows:
 
 * The source code of MPAligner is stored under [MPAligner](MPAligner).
 
-* The source code for the tool that generates trasliteration training data, dictionaries, and invalid alignment dictionaries is located under [CreateResources](CreateResources).
+* The source code for the tool that generates transliteration training data, dictionaries, and invalid alignment dictionaries is located under [CreateResources](CreateResources).
 
 * The transliteration system (Moses SMT) training recipes are stored under [ScriptsForTransliterationTraining](ScriptsForTransliterationTraining).
 
@@ -35,7 +35,7 @@ The repository is structured as follows:
 
 Other tools, which are not that important, but serve a particular purpose in evaluation or testing (however, are not necessary if you want to just execute MPAligner) are:
 
-* [AnalyseDictAndPhraseTableCoverage](AnalyseDictAndPhraseTableCoverage)
+* [AnalyseDictAndPhraseTableCoverage](AnalyseDictAndPhraseTableCoverage) - used to acquire out-of-vocabulary scores for the RANLP 2013 paper.
 
 * [ApplyThreshold](ApplyThreshold) - OBSOLETE - used to apply a threshold and consolidate the alignment results. This code has been integrated in MPAligner. The project has been left here only for testing purposes.
 
